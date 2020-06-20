@@ -215,13 +215,33 @@ List<String> appsToRemove = [
   'com.zakzak.live.chat',
   'com.live.videochat.india',
   'com.zakzak.lite.chat',
-  'com.asiainno.uplive'
+  'com.asiainno.uplive',
+  'us.zoom.videomeetings',
+  'us.zoom.videomeetings4intune',
+  'us.zoom.zrc',
+  'us.zoom.videomeetingsforgood',
+  'mobile.appFPNeKu9K4q',
+  'com.cyberlink.youperfect',
+  'com.cyberlink.youcammakeup',
+  'com.Hisecurity.master.antivirus',
+  'com.HiVPN.fastvpnproxy',
+  'com.privatezone.applockandvault',
+  'com.power.clean.antivirus',
+  'com.super.cleaner.antivirus',
+  'com.virus.cleaner.antivirus',
+  'com.whatsremoved.plus.business.pro',
+  'com.cleanmaster.mguard',
+  'com.hcg.cok.gp',
+  'com.hcg.ctw.gp',
+  'com.elex.coq.gp',
+  'com.zw.zombieworld.gp',
+  'com.hcg.tos.gp'
 ];
 //Line have too many apps
 
 Map<String, List<String>> alternatives = {
   'com.taobao.taobao': ['Flipkart', 'Amazon'],
-  'com.alibaba.android.rimet': ['Teams'],
+  'com.alibaba.android.rimet': ['Teams', 'Meet'],
   'com.taobao.trip': ['Goibibo', 'MakeMyTrip', 'Yatra'],
   'com.alibaba.sellercenter.taiwan': ['Flipkart Lite', 'Amazon'],
   'com.taobao.tmoversea.android': ['Flipkart', 'Amazon'],
@@ -240,6 +260,8 @@ Map<String, List<String>> alternatives = {
   'com.domobile.applock.lite': ['Lock App', 'App Lock'],
   'com.netqin.ps': ['Lock App', 'App Lock'],
   'com.alpha.applock': ['Lock App', 'App Lock'],
+  'com.privatezone.applockandvault': ['Lock App', 'App Lock'],
+  'com.whatsremoved.plus.business.pro': ['Status Saver'],
   'com.photo.vault.lock.keep.safe.calculator.hider': ['Lock App', 'App Lock'],
   'com.ivymobi.applock.free': ['Lock App', 'App Lock'],
   'com.ivymobi.gallery.lock.free': ['Lock App', 'App Lock'],
@@ -299,8 +321,11 @@ Map<String, List<String>> alternatives = {
   'com.zakzak.lite.chat': ['Omegle'],
   'com.asiainno.uplive': ['Omegle'],
   'cleanmaster.phone.memory.booster.cleaner': ['AVG cleaner', 'Avast Cleaner'],
+  'com.cleanmaster.mguard':['AVG cleaner', 'Avast Cleaner'],
   'com.piriform.ccleaner': ['AVG cleaner', 'Avast Cleaner'],
   'com.DU.Cleaner.antivirus.cleanbooster': ['AVG cleaner', 'Avast Cleaner'],
+  'com.power.clean.antivirus': ['AVG cleaner', 'Avast Cleaner'],
+  'com.super.cleaner.antivirus': ['AVG cleaner', 'Avast Cleaner'],
   'com.intsig.camscanner': ['Adobe Scan', 'Office Lens'],
   'com.intsig.camscannerhd': ['Adobe Scan', 'Office Lens'],
   'com.phone.cleaner.speed.booster.cleaningmaster': [
@@ -318,9 +343,9 @@ Map<String, List<String>> alternatives = {
   'com.DU.antivirus.cleaner.boosterpro': ['Avast Antivirus'],
   'jp.naver.lineantivirus.android': ['Avast Antivirus'],
   'com.guardian.security.pri': ['Avast Antivirus'],
-  'phone.antivirus.virus.cleaner.junk.clean.speed.booster.master': [
-    'Avast Antivirus'
-  ],
+  'phone.antivirus.virus.cleaner.junk.clean.speed.booster.master': ['Avast Antivirus'],
+  'com.Hisecurity.master.antivirus': ['Avast Antivirus'],
+  'com.virus.cleaner.antivirus': ['Avast Antivirus'],
   'antivirus.anti.virus.cleaner.security.booster': ['Avast Antivirus'],
   'com.DUcalleradress.trackerlocation.callerid': ['TrueCaller'],
   'du battery saver': ['Fake App'],
@@ -368,6 +393,7 @@ Map<String, List<String>> alternatives = {
   'com.uc.browser.en': ['Firefox lite'],
   'com.ucturbo': ['Firefox lite'],
   'wonder camera': ['B612', 'Candy Camera'],
+  'com.cyberlink.youperfect': ['B612', 'Candy Camera'] ,
   'com.lbe.parallel.intl': ['DO Multiple Accounts'],
   'com.parallel.space.lite': ['DO Multiple Accounts'],
   'com.youdao.hindict': ['Translate'],
@@ -376,7 +402,8 @@ Map<String, List<String>> alternatives = {
   'cn.wps.moffice_eng': ['MS Office'],
   'cn.wps.moffice_i18n': ['Use google Tools'],
   'cn.wps.pdf': ['Acrobat Reader', 'Google PDF'],
-  'cn.wps.pdf.fillsign': ['Adobe FAS']
+  'cn.wps.pdf.fillsign': ['Adobe FAS'],
+  'us.zoom.videomeetings': ['Teams', 'Meet'],
 };
 
 
@@ -436,6 +463,7 @@ Map<String, String> downloadLinks = {
   'makemytrip':'com.makemytrip',
   'maxcom': 'biart.com.flashlight',
   'meditation music': 'net.metapps.meditationsounds',
+  'meet': 'com.google.android.apps.meetings',
   'messages': 'com.google.android.apps.messaging',
   'ms office':'com.microsoft.office.officehubrow',
   'myntra': 'com.myntra.android',
@@ -452,6 +480,7 @@ Map<String, String> downloadLinks = {
   'play music':'com.google.android.music',
   'qr reader': 'com.teacapps.barcodescanner',
   'samsung calculator': 'com.sec.android.app.popupcalculator',
+  'status saver': 'com.lazygeniouz.saveit',
   'swiftkey': 'com.touchtype.swiftkey',
   'teams':'com.microsoft.teams',
   'telegram': 'org.telegram.messenger',
